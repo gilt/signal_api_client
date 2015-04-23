@@ -42,5 +42,5 @@
     "vinyl-transform": "^1.0.0",
     "watchify": "^2.4.0"
   },
-  "main": "./js/signal-api-client/signal_api_client.js"
+  "main": "./js/signal_api_client/signal_api_client.js"
 }

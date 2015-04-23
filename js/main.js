@@ -2,10 +2,10 @@
   /*
     For testing only. No need to do UMD syntax :)
   */
-  var MODULE_NAME = require('./signal-api-client/signal_api_client');
+  var signalApiClient = require('./signal_api_client/signal_api_client');
 
   function init () {
-    alert('signal-api-client');
+    alert('signal_api_client');
   }
 
   if (document.addEventListener !== undefined) {

@@ -10,7 +10,8 @@ module.exports = {
     JS_DEST_MINIFIED_FILE     : './' + MODULE_NAME + '.module.min.js',
     JS_DEST_BROWSERIFIED_FILE  : './' + MODULE_NAME + '.browserified.full.js',
     JS_DEST_BROWSERIFIED_MINIFIED_FILE  : './' + MODULE_NAME + '.browserified.min.js',
-    JS_DEST_FOLDER            : './dist/js'
+    JS_DEST_FOLDER            : './dist/js',
+    ROOT_PATH                 : '/Users/eshepherd/Code/web/open/signal_api_client/node_modules'
   },
 
   css : {
@@ -34,7 +35,7 @@ module.exports = {
   ],
 
   source_map : [
-    'js/' + MODULE_NAME + '/' + 'javascript-dependency' + '.js',
+    //'js/' + MODULE_NAME + '/' + 'javascript_dependency' + '.js',
     'js/' + MODULE_NAME + '/' + MODULE_NAME + '.js'
   ]
 };
